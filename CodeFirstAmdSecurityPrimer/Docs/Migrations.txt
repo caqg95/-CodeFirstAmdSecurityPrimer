@@ -1,0 +1,6 @@
+﻿Enable-Migrations -ContextTypeName NhlContext -MigrationsDirectory Migrations\NHL
+
+add-migration -ConfigurationTypeName  CodeFirstAmdSecurityPrimer.Migrations.NHL.Configuration "InitialCreate"
+
+update-database -ConfigurationTypeName  CoopJFK.Migrations.Configuration
+
